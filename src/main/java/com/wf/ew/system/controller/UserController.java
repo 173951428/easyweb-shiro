@@ -162,7 +162,7 @@ public class UserController extends BaseController {
     }
 
     /**
-     * 重置密码
+     * 重置密码·····
      **/
     @RequiresPermissions("user:edit")
     @ResponseBody

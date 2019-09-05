@@ -12,7 +12,7 @@ import com.wf.ew.system.service.LoginRecordService;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
- * 登录日志管理
+ * 登录日志管理11111111111
  **/
 @Controller
 @RequestMapping("/system/loginRecord")

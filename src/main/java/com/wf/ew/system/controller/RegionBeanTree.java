@@ -2,7 +2,7 @@ package com.wf.ew.system.controller;
 
 import java.util.List;
 public class RegionBeanTree {
-	   private String code ;   //部门代码
+	   private String code ;   //部门代码1111111111111
 	    private String pid ;   //父部门名字
 	    private String label ; //部门名字
 	    private List<RegionBeanTree> children;
