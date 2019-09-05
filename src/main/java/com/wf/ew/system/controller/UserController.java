@@ -7,13 +7,9 @@ import com.wf.ew.common.exception.ParameterException;
 import com.wf.ew.common.shiro.EndecryptUtil;
 import com.wf.ew.common.utils.StringUtil;
 import com.wf.ew.common.utils.excelUtils.ExcelUtils;
-import com.wf.ew.system.Dto.DeptDto;
-import com.wf.ew.system.Dto.TeamDto;
 import com.wf.ew.system.Dto.UserDto;
-import com.wf.ew.system.model.Dept;
 import com.wf.ew.system.model.Role;
 import com.wf.ew.system.model.User;
-import com.wf.ew.system.service.DeptService;
 import com.wf.ew.system.service.RoleService;
 import com.wf.ew.system.service.UserService;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
@@ -24,8 +20,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.context.request.RequestContextHolder;
-import org.springframework.web.context.request.ServletRequestAttributes;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.http.*;
 import java.io.IOException;
@@ -48,8 +42,6 @@ public class UserController extends BaseController {
     private UserService userService;
     @Autowired
     private RoleService roleService;
-    @Autowired
-    private DeptService deptService; 
     
     
 
