@@ -172,7 +172,7 @@ public class UserController extends BaseController {
         if (userService.updatePsw(userId, byId.getUsername(), "123456")) {
             return JsonResult.ok("重置成功");
         } else {
-            return JsonResult.error("重置失败");
+            return JsonResult.error("重置失败------");
         }
     }
     
