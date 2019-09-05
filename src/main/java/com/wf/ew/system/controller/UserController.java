@@ -57,7 +57,7 @@ public class UserController extends BaseController {
     @RequiresPermissions("user:view")
     @RequestMapping
     public String user(Model model) {
-        System.out.println("哈哈哈");
+        System.out.println("哈哈哈111");
         List<Role> roles = roleService.list(false);
         model.addAttribute("roles", roles);
         return "system/user.html";
